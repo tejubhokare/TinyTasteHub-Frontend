@@ -3,10 +3,10 @@ import './CSS/Hero.css'
 function Hero() {
     return (
         <div>
-            <img src='/img/HomeBanner.jpg'
+            <img src='/img/HomeBanner2.jpg'
                 alt="background"
                 width='100%'
-                height='50%'
+                height='43%'
                 className='imgStyle'
             />
 

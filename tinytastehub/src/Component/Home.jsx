@@ -1,5 +1,4 @@
 import { ProjectLayout } from "./ProjectLayout";
-import Header from "./Header";
 
 function MainPage() {
 

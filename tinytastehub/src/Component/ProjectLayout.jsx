@@ -2,6 +2,7 @@ import Header from './Header'
 import Footer from './Footer'
 
 import Hero from "./Hero";
+import FoodData from './FoodData';
 // import FoodData from './FoodData';
 
 export function ProjectLayout({ children }) {
@@ -10,12 +11,8 @@ export function ProjectLayout({ children }) {
             <Header />
             <div>
                 {children}
-
                 <Hero />
-                {/* <FoodData /> */}
-                {/* <HeroServices />
-                <Why /> */}
-
+                <FoodData />
             </div>
             <Footer />
         </div>

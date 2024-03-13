@@ -10,7 +10,6 @@ function Header() {
     };
     const navigationStyle = {
         display: 'inline-block',
-        marginTop: '7%',
         padding: '7px',
         //border: '1px solid black',
         width: '9%',
@@ -20,11 +19,13 @@ function Header() {
         color: 'Black',
         //backgroundColor: 'blueviolet',
         textDecoration: 'none',
-        fontSize: '20px'
+        fontSize: '20px',
+        marginTop: '1%',
     };
+
     const navigationStyle1 = {
         display: 'inline-block',
-        marginTop: '8%',
+
         padding: '9px',
         //border: '1px solid black',
         width: '15%',
@@ -39,7 +40,7 @@ function Header() {
 
     const item1Navigation = {
         textDecoration: 'none',
-
+        margin: 0,
         marginLeft: '18%',
         display: 'inline-block',
         //border: '1px solid black',
@@ -98,10 +99,10 @@ function Header() {
                     width='16%'
                     height='13%'
                     style={{
-                        position: "absolute", zIndex: -1, marginLeft: '2%', marginTop: '6%'
+                        position: "absolute", zIndex: -1, marginLeft: '2%', marginTop: '-1%'
                     }}
                 />
-                {/* <h1 style={myStyle}>Ti</h1> */}
+                <h1 style={myStyle}></h1>
 
                 <nav style={{ position: 'relative' }}>
                     <ul style={{ listStyleType: 'none', textDecoration: 'none', padding: '', marginTop: '-6%' }}>
