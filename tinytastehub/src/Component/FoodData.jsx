@@ -1,5 +1,7 @@
 import './CSS/FoodData.css'
 import Filter from './Filter'
+
+
 export default function FoodData() {
 
     return (
@@ -7,45 +9,121 @@ export default function FoodData() {
             <img src='/img/FoodHome.jpg'
                 alt="service"
                 width='100%'
-                height='135%'
+                height='175%'
                 className='imgBack'
             />
             <div className="mainDiv">
-                {/* <div className='filter'></div> */}
-                <Filter />
+                {/* <Filter /> */}
                 <div className="subDivStyle">
+                    <div className="divStyle" >
+                        <a href="/FoodDetail" className="hyperlinkStyle">
+                            <img src='/img/Food/avocado.jpg' alt="visa" className="imageStyle" />
+                            <h3 className="h3">Avocado </h3>
+                            <p className='p'>Fruit</p>
+                        </a>
+                    </div>
                     <div className="divStyle">
-                        <img src='/img/Food/eggs.jpg' alt="visa" className="imageStyle" />
-                        {/* <img src='/img/visa1.png' alt="visa" className="logoStyle" /> */}
-                        <h3 className="h3">Egg </h3>
-                        <p className='p'>Protein</p>
-                        {/* <button className="button">Get Started</button> */}
+                        <img src='/img/Food/Cabbage.jpg' alt="express" className="imageStyle" />
+                        <h3 className="h3">Cabbage </h3>
+                        <p className='p'> Vegetables </p>
                     </div>
 
                     <div className="divStyle">
                         <img src='/img/Food/Blueberries.jpg' alt="work" className="imageStyle" />
-                        {/* <img src='/img/worklogo3.png' alt="work" className="logoStyle" /> */}
                         <h3 className="h3"> Blueberries </h3>
                         <p className='p'>Fruit</p>
-                        {/* <button className="button">Get Started</button> */}
+                    </div>
+                    <div className="divStyle">
+                        <img src='/img/Food/Rice.jpg' alt="work" className="imageStyle" />
+                        <h3 className="h3"> Rice </h3>
+                        <p className='p'>Grain</p>
+                    </div>
+
+
+
+
+                </div>
+
+                <div className="subDivStyle">
+                    <div className="divStyle">
+                        <img src='/img/Food/Tomato.jpg' alt="express" className="imageStyle" />
+                        <h3 className="h3">Tomato </h3>
+                        <p className='p'> Vegetables </p>
+                    </div>
+                    <div className="divStyle">
+                        <img src='/img/Food/Corn.jpg' alt="work" className="imageStyle" />
+                        <h3 className="h3"> Corn </h3>
+                        <p className='p'>Grain</p>
+                    </div>
+                    <div className="divStyle">
+                        <img src='/img/Food/Kiwi.jpg' alt="visa" className="imageStyle" />
+                        <h3 className="h3">Kiwi </h3>
+                        <p className='p'>Fruit</p>
+                    </div>
+                    <div className="divStyle">
+                        <img src='/img/Food/eggs.jpg' alt="visa" className="imageStyle" />
+                        <h3 className="h3">Egg </h3>
+                        <p className='p'>Protein</p>
+                    </div>
+
+
+                </div>
+                <div className="subDivStyle">
+                    <div className="divStyle">
+                        <img src='/img/Food/Bread.jpg' alt="visa" className="imageStyle" />
+                        <h3 className="h3">Bread </h3>
+                        <p className='p'>Grain</p>
                     </div>
 
                     <div className="divStyle">
-                        <img src='/img/Food/Cabbage.jpg' alt="express" className="imageStyle" />
-                        {/* <img src='/img/leaf2.jpg' alt="express" className="logoStyle" /> */}
-                        <h3 className="h3">Cabbage </h3>
-                        <p className='p'> Vegetables </p>
-                        {/* <button className="button">Get Started</button> */}
+                        <img src='/img/Food/Cheese.jpg' alt="express" className="imageStyle" />
+                        <h3 className="h3">Cheese </h3>
+                        <p className='p'> Dairy </p>
                     </div>
+                    <div className="divStyle">
+                        <img src='/img/Food/chicken.jpg' alt="work" className="imageStyle" />
+                        <h3 className="h3"> Chicken </h3>
+                        <p className='p'>Protein</p>
+                    </div>
+                    <div className="divStyle">
+                        <img src='/img/Food/strawberries.jpg' alt="work" className="imageStyle" />
+                        <h3 className="h3"> Strawberries </h3>
+                        <p className='p'>Fruit</p>
+                    </div>
+
+                </div>
+                <div className="subDivStyle">
+                    <div className="divStyle">
+                        <img src='/img/Food/Bread.jpg' alt="visa" className="imageStyle" />
+                        <h3 className="h3">Bread </h3>
+                        <p className='p'>Grain</p>
+                    </div>
+
+                    <div className="divStyle">
+                        <img src='/img/Food/Cheese.jpg' alt="express" className="imageStyle" />
+                        <h3 className="h3">Cheese </h3>
+                        <p className='p'> Dairy </p>
+                    </div>
+                    <div className="divStyle">
+                        <img src='/img/Food/chicken.jpg' alt="work" className="imageStyle" />
+                        <h3 className="h3"> Chicken </h3>
+                        <p className='p'>Protein</p>
+                    </div>
+                    <div className="divStyle">
+                        <img src='/img/Food/strawberries.jpg' alt="work" className="imageStyle" />
+                        <h3 className="h3"> Strawberries </h3>
+                        <p className='p'>Fruit</p>
+                    </div>
+
                 </div>
 
 
-
-
+                <Filter />
 
 
 
             </div>
+
         </>
     )
 }

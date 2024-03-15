@@ -109,7 +109,7 @@ function Header() {
 
                         <a href="/" style={hyperlinkStyle}><li style={item1Navigation}><b>Home</b></li></a>
 
-                        <a href="/forum" style={hyperlinkStyle}><li style={navigationStyle1}><b>Guides & Receipes</b></li></a>
+                        <a href="/guides" style={hyperlinkStyle}><li style={navigationStyle1}><b>Guides & Receipes</b></li></a>
                         <li style={navigationStyle1}><b>Community Forum </b></li>
                         <a href="/services" style={hyperlinkStyle}><li style={navigationStyle}><b>About</b></li></a>
                         <li style={navigationStyle}><b>Login</b></li>

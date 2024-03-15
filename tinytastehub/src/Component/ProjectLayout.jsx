@@ -1,9 +1,10 @@
 import Header from './Header'
 import Footer from './Footer'
-
 import Hero from "./Hero";
 import FoodData from './FoodData';
-// import FoodData from './FoodData';
+import Guides from './Guides';
+
+
 
 export function ProjectLayout({ children }) {
     return (
@@ -13,8 +14,9 @@ export function ProjectLayout({ children }) {
                 {children}
                 <Hero />
                 <FoodData />
+                {/* <Guides /> */}
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }

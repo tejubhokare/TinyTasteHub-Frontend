@@ -52,6 +52,10 @@ export default function Filter() {
                 <label>
                     <input type="checkbox" name="option1" className="checkbox-hidden" />
                     <span className="checkbox-square"></span> Protein
+                </label><br></br>
+                <label>
+                    <input type="checkbox" name="option1" className="checkbox-hidden" />
+                    <span className="checkbox-square"></span> Grain
                 </label>
             </div>
 

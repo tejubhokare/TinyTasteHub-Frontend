@@ -14,26 +14,13 @@
     display: flex;
     /* justify-content: center; */
     margin: 1%;
-    margin-top: -40%;
+    margin-top: -3%;
     margin-left: 24%;
     align-items: flex-start;
 }
 
-/* 
-.button {
-    margin-left: 20%;
-    text-align: center;
-    width: 40%;
-    color: white;
-    background-color: blueviolet;
-    padding: 10px;
-    border: 0;
-    border-radius: 10px
-} */
-
 .imageStyle {
     width: 90%;
-    /* Adjusted to fit the container */
     height: auto;
     border: 0;
     border-radius: 20px;
@@ -69,7 +56,7 @@
     background-size: cover;
     background-position: center;
     margin-top: 0.8%;
-    opacity: 90%
+    opacity: 50%
 }
 
 .h3 {
@@ -85,4 +72,9 @@
     color: black;
     margin-top: -5%;
     margin-left: 5%;
+}
+
+.hyperlinkStyle {
+    text-decoration: none;
+    color: black
 }
