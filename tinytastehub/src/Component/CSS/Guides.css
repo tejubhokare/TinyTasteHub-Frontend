@@ -62,14 +62,14 @@
     z-index: -1;
     background-size: cover;
     background-position: center;
-    margin-top: 60%;
-    opacity: 70%
+    margin-top: 0%;
+    opacity: 50%
 }
 
 .Guideh1 {
 
     text-align: center;
-    margin-top: 85%
+    margin-top: 20%
 }
 
 .Guideh3 {
@@ -82,4 +82,9 @@
 
     text-align: center;
     color: black;
+}
+
+.hyperlinkStyle {
+    text-decoration: none;
+    color: white
 }

@@ -1,8 +1,12 @@
 import './CSS/Guides.css'
+
+import Header from './Header'
+
 export default function Guides() {
 
     return (
         <>
+            <Header />
             <img src='/img/GuideBanner2.jpg'
                 alt="service"
                 width='100%'
@@ -18,7 +22,7 @@ export default function Guides() {
                         <h3 className="Guideh3"> Starting Solid Guides </h3>
                         <p className='Guidep'>Find Ideas Support and In-depth Guidance
                             with our Guides and course </p>
-                        <button className="Guidebutton">Get Started</button>
+                        <a href="/StartingSolid" className='hyperlinkStyle'> <button className="Guidebutton" >Get Started</button></a>
                     </div>
 
                     <div className="GuidedivStyle">

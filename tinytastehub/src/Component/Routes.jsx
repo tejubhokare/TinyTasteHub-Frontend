@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import MainPage from "./Home";
 import FoodDetail from "./FoodDetail";
 import Guides from "./Guides";
-
+import StartingSolid from "./Guides/StartingSolid";
 function Router() {
     const router = createBrowserRouter([
         {
@@ -17,6 +17,10 @@ function Router() {
         {
             path: "/guides",
             element: <Guides />
+        },
+        {
+            path: "/StartingSolid",
+            element: <StartingSolid />
         },
 
     ])
