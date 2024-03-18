@@ -4,6 +4,7 @@ import MainPage from "./Home";
 import FoodDetail from "./FoodDetail";
 import Guides from "./Guides";
 import StartingSolid from "./Guides/StartingSolid";
+import Snacks from "./Guides/Snacks";
 function Router() {
     const router = createBrowserRouter([
         {
@@ -21,6 +22,10 @@ function Router() {
         {
             path: "/StartingSolid",
             element: <StartingSolid />
+        },
+        {
+            path: "/SnacksGuide",
+            element: <Snacks />
         },
 
     ])

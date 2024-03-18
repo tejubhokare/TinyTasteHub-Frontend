@@ -24,16 +24,16 @@ export default function Guides() {
                             with our Guides and course </p>
                         <a href="/StartingSolid" className='hyperlinkStyle'> <button className="Guidebutton" >Get Started</button></a>
                     </div>
-
                     <div className="GuidedivStyle">
-                        <img src='/img/Guide2.jpg' alt="work" className="GuideimageStyle" />
+                        <img src='/img/Guide5.jpg' alt="work" className="GuideimageStyle" />
 
-                        <h3 className="Guideh3"> Toddler Guides and Videos </h3>
+                        <h3 className="Guideh3"> Healthy Snacks to make </h3>
                         <p className='Guidep'>Have a Toddler who is throing up or suddenly
                             refusing meals?</p>
-                        <button className="Guidebutton">Get Started</button>
+                            <a href="/SnacksGuide" className='hyperlinkStyle'>  <button className="Guidebutton">Get Started</button></a>
                     </div>
 
+                    
                     <div className="GuidedivStyle">
                         <img src='/img/Guide3.jpg' alt="express" className="GuideimageStyle" />
 
@@ -54,15 +54,16 @@ export default function Guides() {
                             with our Guides and course </p>
                         <button className="Guidebutton">Get Started</button>
                     </div>
-
                     <div className="GuidedivStyle">
-                        <img src='/img/Guide5.jpg' alt="work" className="GuideimageStyle" />
+                        <img src='/img/Guide2.jpg' alt="work" className="GuideimageStyle" />
 
-                        <h3 className="Guideh3"> Healthy Snacks to make </h3>
+                        <h3 className="Guideh3"> Toddler Guides and Videos </h3>
                         <p className='Guidep'>Have a Toddler who is throing up or suddenly
                             refusing meals?</p>
                         <button className="Guidebutton">Get Started</button>
                     </div>
+
+                  
 
                     <div className="GuidedivStyle">
                         <img src='/img/Guide6.jpg' alt="express" className="GuideimageStyle" />

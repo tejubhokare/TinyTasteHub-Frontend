@@ -1,0 +1,74 @@
+.StartingSolidimageStyle {
+    width: 30%;
+    height: 30%;
+    border: 0;
+    border-radius: 20px;
+    object-fit: cover;
+    padding: 10px;
+    margin-left: 10%;
+    margin-top: 1%;
+
+}
+.LeftimageStyle {
+    width: 30%;
+    height: 30%;
+    border: 0;
+    border-radius: 20px;
+    object-fit: cover;
+    padding: 10px;
+    margin-left: 4%;
+    margin-top: 1%;
+
+}
+.imageStyle {
+    width: 30%;
+    height: 30%;
+    border: 0;
+    border-radius: 20px;
+    object-fit: cover;
+    padding: 10px;
+    margin-left: 64%;
+    margin-top: -1%;
+}
+
+.StartingSolidimgBack {
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0%;
+    opacity: 50%
+}
+
+.SolidDiv1 {
+    width: 80%;
+    height: 80%;
+}
+
+.StartingSolidh1 {
+
+    text-align: center;
+    margin-top: 3%
+}
+
+.StartingSolidh2 {
+
+    text-align: center;
+    margin-top: 1%
+}
+
+.StartingSolidh3 {
+
+    /* text-align: center; */
+    margin-top: 6%;
+    margin-left: 20%;
+}
+
+.StartingSolidp {
+
+    /* text-align: center; */
+    color: black;
+    width: 40%;
+    margin-left: 45%;
+    margin-top: -20%;
+}
