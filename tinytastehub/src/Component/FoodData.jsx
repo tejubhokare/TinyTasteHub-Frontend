@@ -6,14 +6,16 @@ export default function FoodData() {
 
     return (
         <>
-            <img src='/img/FoodHome1.jpg'
+            <img src='/img/pink background.png'
                 alt="service"
                 width='100%'
                 height='175%'
                 className='imgBack'
             />
+            <input className='input' placeholder='Search Food'></input>
             <div className="mainDiv">
                 {/* <Filter /> */}
+
                 <div className="subDivStyle">
                     <div className="divStyle" >
                         <a href="/FoodDetail" className="hyperlinkStyle">
@@ -23,9 +25,11 @@ export default function FoodData() {
                         </a>
                     </div>
                     <div className="divStyle">
-                        <img src='/img/Food/Cabbage.jpg' alt="express" className="imageStyle" />
-                        <h3 className="h3">Cabbage </h3>
-                        <p className='p'> Vegetables </p>
+                        <a href="/Cabbage" className="hyperlinkStyle">
+                            <img src='/img/Food/Cabbage.jpg' alt="express" className="imageStyle" />
+                            <h3 className="h3">Cabbage </h3>
+                            <p className='p'> Vegetables </p>
+                        </a>
                     </div>
 
                     <div className="divStyle">

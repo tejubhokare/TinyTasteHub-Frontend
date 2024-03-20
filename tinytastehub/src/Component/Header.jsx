@@ -112,8 +112,8 @@ function Header() {
                         <a href="/guides" style={hyperlinkStyle}><li style={navigationStyle1}><b>Guides & Receipes</b></li></a>
                         <li style={navigationStyle1}><b>Community Forum </b></li>
                         <a href="/services" style={hyperlinkStyle}><li style={navigationStyle}><b>About</b></li></a>
-                        <li style={navigationStyle}><b>Login</b></li>
-                        <li style={navigationStyle}><b>Register</b></li></ul>
+                        <a href="/login" style={hyperlinkStyle}> <li style={navigationStyle}><b>Login</b></li></a>
+                        <a href="/register" style={hyperlinkStyle}> <li style={navigationStyle}><b>Register</b></li></a></ul>
                 </nav>
                 {/* <input style={searchStyle} type="search" placeholder="Search here" />
                 <a href="/login" style={{ textDecoration: 'none', color: 'blue' }}><button style={buttonStyle1} ><b>Login</b></button ></a>

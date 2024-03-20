@@ -10,6 +10,16 @@
     margin-top: -82%;
 }
 
+.sortBy {
+    margin-left: 8%;
+    line-height: 30px;
+}
+
+.Heading {
+    margin-left: 5%;
+    line-height: 30px;
+}
+
 .checkbox-hidden {
     display: none;
 }

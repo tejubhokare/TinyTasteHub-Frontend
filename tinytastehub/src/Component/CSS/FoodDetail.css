@@ -1,0 +1,42 @@
+.Foodh2 {
+    margin-top: -18%;
+    margin-left: 7%;
+}
+
+.Foodh3 {
+    margin-top: 3%;
+    margin-left: 7%;
+}
+
+.Foodlabel {
+    margin-top: 10%;
+    margin-left: 7%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Foodp {
+    margin-top: -1%;
+    margin-left: 18%;
+    line-height: 30px;
+}
+
+.Foodp1 {
+    /* margin-top: 4%; */
+    margin-left: 7%;
+    width: 60%;
+}
+
+.FoodimageStyle {
+    margin-top: 5%;
+    margin-left: 60%;
+}
+
+.FoodimgBack {
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0.8%;
+    opacity: 30%
+}

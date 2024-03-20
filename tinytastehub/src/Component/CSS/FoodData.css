@@ -45,7 +45,7 @@
     width: 93%;
     padding: 25px;
     margin-left: 2%;
-    margin-top: 10%;
+    margin-top: 2%;
     height: 10px;
     justify-content: center;
 }
@@ -56,7 +56,7 @@
     background-size: cover;
     background-position: center;
     margin-top: 0.8%;
-    opacity: 50%
+    opacity: 30%
 }
 
 .h3 {
@@ -77,4 +77,12 @@
 .hyperlinkStyle {
     text-decoration: none;
     color: black
+}
+
+.input {
+    margin-top: 2%;
+    margin-left: 28%;
+    width: 25%;
+    padding: 8px;
+
 }

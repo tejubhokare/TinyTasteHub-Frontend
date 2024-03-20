@@ -30,10 +30,10 @@ export default function Guides() {
                         <h3 className="Guideh3"> Healthy Snacks to make </h3>
                         <p className='Guidep'>Have a Toddler who is throing up or suddenly
                             refusing meals?</p>
-                            <a href="/SnacksGuide" className='hyperlinkStyle'>  <button className="Guidebutton">Get Started</button></a>
+                        <a href="/SnacksGuide" className='hyperlinkStyle'>  <button className="Guidebutton">Get Started</button></a>
                     </div>
 
-                    
+
                     <div className="GuidedivStyle">
                         <img src='/img/Guide3.jpg' alt="express" className="GuideimageStyle" />
 
@@ -63,7 +63,7 @@ export default function Guides() {
                         <button className="Guidebutton">Get Started</button>
                     </div>
 
-                  
+
 
                     <div className="GuidedivStyle">
                         <img src='/img/Guide6.jpg' alt="express" className="GuideimageStyle" />
@@ -71,7 +71,7 @@ export default function Guides() {
                         <h3 className="Guideh3"> Hidden Vegie Sauces  </h3>
                         <p className='Guidep'> Make Lasting and Permanent change at the Table
                             from experts  on reverse picky eating! </p>
-                        <button className="Guidebutton">Get Started</button>
+                        <a href="/SaucesGuide" className='hyperlinkStyle'><button className="Guidebutton">Get Started</button></a>
                     </div>
                 </div>
 

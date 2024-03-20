@@ -1,4 +1,4 @@
-.SnacksimageStyle {
+.SausesimageStyle {
     width: 30%;
     height: 30%;
     border: 0;
@@ -10,7 +10,7 @@
 
 }
 
-.LeftimageStyle {
+.SausesLeftimageStyle {
     width: 30%;
     height: 30%;
     border: 0;
@@ -22,7 +22,7 @@
 
 }
 
-.RightimageStyle {
+.SausesRightimageStyle {
     width: 30%;
     height: 30%;
     border: 0;
@@ -33,7 +33,7 @@
     margin-top: -1%;
 }
 
-.SnacksimgBack {
+.SausesimgBack {
     position: absolute;
     z-index: -1;
     background-size: cover;
@@ -42,31 +42,31 @@
     opacity: 20%
 }
 
-.SnacksDiv1 {
+.SausesDiv1 {
     width: 80%;
     height: 80%;
 }
 
-.Snacksh1 {
+.Sausesh1 {
 
     text-align: center;
     margin-top: 3%
 }
 
-.Snacksh2 {
+.Sausesh2 {
 
     text-align: center;
     margin-top: 1%
 }
 
-.Snacksh3 {
+.Sausesh3 {
 
     /* text-align: center; */
     margin-top: 6%;
     margin-left: 20%;
 }
 
-.Snacksp {
+.Sausesp {
 
     /* text-align: center; */
     color: black;
